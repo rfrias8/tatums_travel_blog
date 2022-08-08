@@ -4,8 +4,13 @@
 
 header{
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    display: block;
     background-size: cover;
     color: white;
+    border-radius: .75em;
+    padding: 20px;
+    box-shadow: 5px 10px;
+    text-shadow: 1px 2px;
 }
 
 h1 h3{
@@ -18,6 +23,21 @@ body {
 
 article{
     background-image: linear-gradient(gray, lightblue);
+    border-radius: .75em;
+    padding: 20px;
+    box-shadow: 5px 10px;
+}
+
+.subheading{
+    border-bottom: 2px solid;
+}
+
+img{
+    height: 20%;
+    border: 5px solid seagreen;
+    border-radius: .75em;
+    margin-bottom: 40px;
+    box-shadow: 5px 10px;
 }
 /* link styles */
 a{
